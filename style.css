@@ -42,19 +42,31 @@ ul {
     gap: 3rem;
 }
 
+.section1 div {
+    flex-grow: 1;
+}
+
 .section1 div:nth-child(2) {
     background-color: aqua;
     display: flex;
     align-items: center;
     padding: 3rem;
-}
-
-.section1 * {
-    max-inline-size: 50%;
+    inline-size: 50%;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+}
+
+.section1 button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    color: #E5E7EB;
+    inline-size: 20%;
+    block-size: 12%;
+    font-size: 20px;
+    font-weight: bold;
 }
