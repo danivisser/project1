@@ -20,7 +20,7 @@ body {
 header {
     background-color: #1F2937;
 }
-.header-logo h2 {
+h3 {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -139,4 +139,32 @@ h2 {
     font-weight: bold;
     font-style: normal;
     text-align: right;
+}
+
+.cta {
+    margin-block: 3rem;
+}
+.box {
+    display: flex;
+    background-color: #3882F6;
+    max-inline-size: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding-inline: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+.box * {
+    margin: 0;
+}
+
+.box button {
+    border: thin solid #E5E7EB;
+    background: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
 }
