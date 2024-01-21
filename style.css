@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 :root {
     font-family: 'Roboto', sans-serif;
@@ -85,6 +85,36 @@ h1 {
     padding-block: 0.5rem;
 }
 
-.section2 { 
-    
+.content2 {
+    max-width: 60%;
+    margin: auto;
+    margin-block-end: 3rem;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    gap: 1rem;
+}
+.piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.piece p {
+    text-align: center;
+}
+
+.image {
+    border: medium solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    aspect-ratio: 1 / 1;
 }
