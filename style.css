@@ -9,7 +9,6 @@
 body {
     margin: 0;
 }
-
 .header-content {
     max-width: 75%;
     display: flex;
@@ -41,18 +40,25 @@ ul {
 }
 
 .section1 {
-    display: flex;
-    gap: 3rem;
+    background-color: #1F2937;
 }
 
-.section1 div {
+.content1 {
+    display: flex;
+    gap: 3rem;
+    max-width: 75%;
+    margin: auto;
+}
+
+
+.content1 div {
     flex: 1 1 50%;
     margin-block-start: 3rem;
     margin-block-end: 3rem;
     box-sizing: border-box;
 }
 
-.section1 div:nth-child(2) {
+.content1 div:nth-child(2) {
     background-color: lightgrey;
     display: flex;
     align-items: center;
