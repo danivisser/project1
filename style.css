@@ -168,3 +168,14 @@ h2 {
     padding-inline: 1rem;
     padding-block: 0.5rem;
 }
+
+footer {
+    background-color:#1F2937;
+    padding-block: 3rem;
+}
+
+.footer-content {
+    max-inline-size: 60%;
+    margin: auto;
+    text-align: center;
+}
