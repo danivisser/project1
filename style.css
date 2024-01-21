@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 :root {
     font-family: 'Roboto', sans-serif;
@@ -117,4 +117,26 @@ h2 {
     border-radius: 10px;
     width: 200px;
     aspect-ratio: 1 / 1;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-block: 3rem;
+}
+.quote-content {
+    max-inline-size: 60%;
+    margin: auto;
+}
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote p:last-child {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
 }
